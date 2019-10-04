@@ -51,7 +51,7 @@ drift.load('vmpacd5bxa94');
 document.onreadystatechange = function(){
   if (document.readyState === "complete") {
      var resource = document.createElement('script');
-      //resource.defer = "true";
+      resource.defer = "true";
      resource.src = 'https://dev2-chatbot.agentz.ai/agentz-chatbot.js?version=1&botUrl=https://dev2-chatbot.agentz.ai&title=title&businessAgent=eb64e778-7b66-4c9a-a1ad-d664d42df002';
      var script = document.getElementsByTagName('script')[0];
      script.parentNode.insertBefore(resource, script);
