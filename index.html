@@ -71,8 +71,7 @@ document.onreadystatechange = function(){
           if (document.readyState === "complete") {
             var resource = document.createElement('script'); 
             resource.defer = "true";
-            resource.src = "
-		  https://chatbot.agentz.ai/agentz-chatbot.js?version=1&botUrl=https://chatbot.agentz.ai&title=title&businessAgent=10ca625c-ccc3-49da-af52-36ad9abbf862";
+            resource.src = "https://chatbot.agentz.ai/agentz-chatbot.js?version=1&botUrl=https://chatbot.agentz.ai&title=title&businessAgent=10ca625c-ccc3-49da-af52-36ad9abbf862";
             var script = document.getElementsByTagName('script')[0];
             script.parentNode.insertBefore(resource, script);
           }
